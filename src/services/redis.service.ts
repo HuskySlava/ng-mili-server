@@ -1,5 +1,4 @@
 import {createClient, type RedisClientType} from "redis";
-import logUtils from "../utils/log.utils.js";
 
 class RedisService {
 	private static instance: RedisService;
