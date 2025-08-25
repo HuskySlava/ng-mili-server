@@ -4,7 +4,6 @@ import redisService from "../services/redis.service.js";
 const liveEventsRouter = Router();
 
 liveEventsRouter.get('/', (req, res) => {
-	redisService.test();
 	res.status(200).json([
 		{
 			id: 0,
