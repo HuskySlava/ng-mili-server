@@ -8,6 +8,7 @@
 .env.local
 .env.production
 .env.development
+google-service-account.json
 
 # IDE & OS
 .vscode/
